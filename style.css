@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+}
+
+li{
+    list-style: none;
+}
+header{
+    width: 100%; 
+    height: auto; /*se acomoda segun su contenido*/
+    background-color: blueviolet;
+}
+.header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+main article{
+    display: flex; /*al ser flex su espacio que ocupa es del contenedor mismo*/
+    flex-direction: column;
+    width: 20%;
+}
